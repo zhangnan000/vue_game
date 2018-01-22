@@ -1,0 +1,22 @@
+body,input,img,a,ul,h1,h2,h3,h4,h5,h6,p,li,i,em,b{
+margin:0;
+padding:0;
+border: 0;
+text-decoration:none;
+list-style:none;
+font-family:futura,Arial, Segoe, sans-serif;
+ color:#333;
+}
+*{
+ box-sizing:border-box;
+}
+img {
+	vertical-align: middle;
+}
+a,button,input{
+	-webkit-appearance:none;
+	border-radius: 0;
+	-webkit-tap-highlight-color:rgba(255,0,0,0);
+	-webkit-tap-highlight-color: transparent; /* For some Androids */
+	outline: none;
+}
